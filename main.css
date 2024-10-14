@@ -8,3 +8,8 @@ box-sizing: border-box;
     width: 1300px;
     margin: 0 auto;
 }
+
+.first-section {
+    height: 1080px;
+    background-image: url(./img/fon.png);
+}
