@@ -5,11 +5,71 @@ box-sizing: border-box;
 }
 
 .container {
-    width: 1300px;
+    width: 1500px;
     margin: 0 auto;
 }
 
 .first-section {
     height: 1080px;
     background-image: url(./img/fon.png);
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between
+}
+
+.a-box ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.a-box ul li a {
+    color: white;
+text-decoration: none;
+transition: all 0.3s ease;
+}
+
+.a-box ul li a:hover {
+    color: #BAED29;
+}
+
+.a-box {
+    padding-top: 70px;
+}
+
+.logo-box {
+    margin-top: 30px;
+    display: flex;
+}
+
+.contact-box {
+    margin-top: 50px;
+}
+
+.tel-box {
+    margin-top: 10px;
+}
+
+.tel-box a {
+    color: white;
+    text-decoration: none;
+}
+
+.tel-box p {
+    color: white;
+}
+
+.get-box {
+    width:697px;
+height:743px;
+border-radius: 24px 24px 24px 24px;
+background-color: #EEEEEE;
 }
